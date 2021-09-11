@@ -1,0 +1,12 @@
+2021-09-09T11:19:44.764794Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.26) starting as process 89
+2021-09-09T11:19:44.798779Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2021-09-09T11:19:45.707743Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2021-09-09T11:19:45.983243Z 0 [Warning] [MY-013746] [Server] A deprecated TLS version TLSv1 is enabled for channel mysql_main
+2021-09-09T11:19:45.983403Z 0 [Warning] [MY-013746] [Server] A deprecated TLS version TLSv1.1 is enabled for channel mysql_main
+2021-09-09T11:19:45.984378Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2021-09-09T11:19:45.984564Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2021-09-09T11:19:45.990546Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+2021-09-09T11:19:46.009990Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Socket: /var/run/mysqld/mysqlx.sock
+2021-09-09T11:19:46.010050Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.26'  socket: '/var/run/mysqld/mysqld.sock'  port: 0  MySQL Community Server - GPL.
+2021-09-09T11:19:48.577113Z 11 [System] [MY-013172] [Server] Received SHUTDOWN from user root. Shutting down mysqld (Version: 8.0.26).
+2021-09-09T11:19:51.283492Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.26)  MySQL Community Server - GPL.
