@@ -20,8 +20,7 @@ class CreateRequestsTable extends Migration
             $table->string('father_name');
             $table->string('afm',9);
             $table->enum('status', ['pending', 'approved','diclined']);
-            $table->foreign('user_id')->references('id')->on('users')->onDelete("cascade");
-            $table->foreign('fee_id')->references('id')->on('fees')->onDelete("cascade");
+            $table->integer('fee_id');
             $table->timestamps();
         });
     }

@@ -15,13 +15,17 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', [App\Http\Controllers\EfeeController::class, 'index'])->name('efee');
 Route::post('/', [App\Http\Controllers\EfeeController::class, 'store'])->name('efee.put');
+Route::get('/admin', [App\Http\Controllers\EfeeController::class, 'admin'])->name('admin.index');
+Route::put('/admin/approve', [App\Http\Controllers\EfeeController::class, 'updatesuccess'])->name('admin.btnapproved');
+Route::put('/admin/reject', [App\Http\Controllers\EfeeController::class, 'updatereject'])->name('admin.btnrejected');
+
+
 
 Route::get('/keycloak', function () {
     return redirect()->to('https://tsideris.westeurope.cloudapp.azure.com:8443/auth/admin');
 })->name('keycloak');
 
 Route::get('/admin', [App\Http\Controllers\EfeeController::class, 'admin'])->name('admin.index');
-Route::put('/admin', [App\Http\Controllers\EfeeController::class, 'update'])->name('admin.update');
 
 
 
